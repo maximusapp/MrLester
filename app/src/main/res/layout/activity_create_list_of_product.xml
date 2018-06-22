@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lister.mrlister.mrlester.activity.CreateListOfProductActivity">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/app_bar_new_list"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/write_product"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginStart="20dp"
+            android:hint="@string/write_product"
+            android:inputType="text"
+            android:imeOptions="actionDone"
+            android:background="@drawable/add_new_product_background"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:background="@color/colorGray"
+        >
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_products"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorWhite"
+            android:visibility="gone">
+        </android.support.v7.widget.RecyclerView>
+
+        <TextView
+            android:id="@+id/text_in_list_of_product"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your list is empty"
+            android:textColor="@color/colorBlack"
+            android:fontFamily="@font/latoregular"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="150dp"
+            android:visibility="visible"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

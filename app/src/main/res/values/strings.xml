@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Mr.Lister</string>
+    <string name="main_activity">My List</string>
+    <string name="new_list_activity">New List</string>
+    <string name="new_list_of_products">Name of List</string>
+
+    <string name="text_main_screen">You do not have a shopping list</string>
+
+    <!-- New List Activity text -->
+    <string name="edit_text">List Name</string>
+    <string name="choose_color_text">Choose color</string>
+    <string name="choose_icon_text">Choose icon</string>
+    <string name="button_text">Create a List</string>
+
+    <string name="write_product"> "  "write a product</string>
+
+    <!-- String of Items in list -->
+
+    <string name="item_title">List 1</string>
+
+    <string name="action_settings">Settings</string>
+</resources>
